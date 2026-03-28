@@ -320,8 +320,16 @@ path.combo {
 <text x="364" y="207" class="combo hold layer-activator">4</text>
 </a></g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">TAB</text>
+<path d="M455,98 l-296,-13" class="combo"/>
+<path d="M455,98 l114,-12" class="combo"/>
+<path d="M455,98 l170,-13" class="combo"/>
+<path d="M455,98 l226,-13" class="combo"/>
+<path d="M455,98 l115,36" class="combo"/>
+<path d="M455,98 l227,39" class="combo"/>
+<path d="M455,98 l-240,-13" class="combo"/>
+<path d="M455,98 l-352,-13" class="combo"/>
+<rect rx="6" ry="6" x="441" y="85" width="28" height="26" class="combo"/>
+<text x="455" y="98" class="combo tap">TAB</text>
 </g>
 </g>
 </g>
@@ -510,8 +518,16 @@ path.combo {
 <text x="364" y="207" class="combo hold layer-activator">4</text>
 </a></g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">TAB</text>
+<path d="M455,98 l-296,-13" class="combo"/>
+<path d="M455,98 l114,-12" class="combo"/>
+<path d="M455,98 l170,-13" class="combo"/>
+<path d="M455,98 l226,-13" class="combo"/>
+<path d="M455,98 l115,36" class="combo"/>
+<path d="M455,98 l227,39" class="combo"/>
+<path d="M455,98 l-240,-13" class="combo"/>
+<path d="M455,98 l-352,-13" class="combo"/>
+<rect rx="6" ry="6" x="441" y="85" width="28" height="26" class="combo"/>
+<text x="455" y="98" class="combo tap">TAB</text>
 </g>
 </g>
 </g>
@@ -700,8 +716,16 @@ path.combo {
 <text x="364" y="207" class="combo hold layer-activator">4</text>
 </a></g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">TAB</text>
+<path d="M455,98 l-296,-13" class="combo"/>
+<path d="M455,98 l114,-12" class="combo"/>
+<path d="M455,98 l170,-13" class="combo"/>
+<path d="M455,98 l226,-13" class="combo"/>
+<path d="M455,98 l115,36" class="combo"/>
+<path d="M455,98 l227,39" class="combo"/>
+<path d="M455,98 l-240,-13" class="combo"/>
+<path d="M455,98 l-352,-13" class="combo"/>
+<rect rx="6" ry="6" x="441" y="85" width="28" height="26" class="combo"/>
+<text x="455" y="98" class="combo tap">TAB</text>
 </g>
 </g>
 </g>
@@ -912,8 +936,16 @@ path.combo {
 <text x="364" y="207" class="combo hold layer-activator">4</text>
 </a></g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">TAB</text>
+<path d="M455,98 l-296,-13" class="combo"/>
+<path d="M455,98 l114,-12" class="combo"/>
+<path d="M455,98 l170,-13" class="combo"/>
+<path d="M455,98 l226,-13" class="combo"/>
+<path d="M455,98 l115,36" class="combo"/>
+<path d="M455,98 l227,39" class="combo"/>
+<path d="M455,98 l-240,-13" class="combo"/>
+<path d="M455,98 l-352,-13" class="combo"/>
+<rect rx="6" ry="6" x="441" y="85" width="28" height="26" class="combo"/>
+<text x="455" y="98" class="combo tap">TAB</text>
 </g>
 </g>
 </g>
@@ -1108,8 +1140,16 @@ path.combo {
 <text x="364" y="207" class="combo hold layer-activator">4</text>
 </a></g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">TAB</text>
+<path d="M455,98 l-296,-13" class="combo"/>
+<path d="M455,98 l114,-12" class="combo"/>
+<path d="M455,98 l170,-13" class="combo"/>
+<path d="M455,98 l226,-13" class="combo"/>
+<path d="M455,98 l115,36" class="combo"/>
+<path d="M455,98 l227,39" class="combo"/>
+<path d="M455,98 l-240,-13" class="combo"/>
+<path d="M455,98 l-352,-13" class="combo"/>
+<rect rx="6" ry="6" x="441" y="85" width="28" height="26" class="combo"/>
+<text x="455" y="98" class="combo tap">TAB</text>
 </g>
 </g>
 </g>
@@ -1305,8 +1345,16 @@ path.combo {
 <text x="364" y="207" class="combo hold layer-activator">4</text>
 </a></g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">TAB</text>
+<path d="M455,98 l-296,-13" class="combo"/>
+<path d="M455,98 l114,-12" class="combo"/>
+<path d="M455,98 l170,-13" class="combo"/>
+<path d="M455,98 l226,-13" class="combo"/>
+<path d="M455,98 l115,36" class="combo"/>
+<path d="M455,98 l227,39" class="combo"/>
+<path d="M455,98 l-240,-13" class="combo"/>
+<path d="M455,98 l-352,-13" class="combo"/>
+<rect rx="6" ry="6" x="441" y="85" width="28" height="26" class="combo"/>
+<text x="455" y="98" class="combo tap">TAB</text>
 </g>
 </g>
 </g>
@@ -1490,8 +1538,16 @@ path.combo {
 <text x="364" y="207" class="combo hold layer-activator">4</text>
 </a></g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">TAB</text>
+<path d="M455,98 l-296,-13" class="combo"/>
+<path d="M455,98 l114,-12" class="combo"/>
+<path d="M455,98 l170,-13" class="combo"/>
+<path d="M455,98 l226,-13" class="combo"/>
+<path d="M455,98 l115,36" class="combo"/>
+<path d="M455,98 l227,39" class="combo"/>
+<path d="M455,98 l-240,-13" class="combo"/>
+<path d="M455,98 l-352,-13" class="combo"/>
+<rect rx="6" ry="6" x="441" y="85" width="28" height="26" class="combo"/>
+<text x="455" y="98" class="combo tap">TAB</text>
 </g>
 </g>
 </g>
