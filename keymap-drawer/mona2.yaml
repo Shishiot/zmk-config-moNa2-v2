@@ -9,8 +9,8 @@ layers:
   - Y
   - U
   - I
-  - O
-  - {t: P, h: '6'}
+  - {t: O, h: '6'}
+  - P
   - A
   - S
   - D
@@ -267,8 +267,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
