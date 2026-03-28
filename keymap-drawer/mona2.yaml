@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - INS
+  - '&zenkaku_hankaku'
   - H
   - J
   - K
