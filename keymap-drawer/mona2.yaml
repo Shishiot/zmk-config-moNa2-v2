@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - Alt+PRINTSCREEN
+  - INS
   - H
   - J
   - K
@@ -28,7 +28,7 @@ layers:
   - V
   - B
   - TAB
-  - Sft+Gui+S
+  - PRINTSCREEN
   - N
   - M
   - ','
@@ -42,7 +42,7 @@ layers:
   - {t: LANG ZENKAKUHANKAKU, h: '2'}
   - {t: ENTER, h: '3'}
   - BACKSPACE
-  - {t: ESCAPE, h: '1'}
+  - {t: ESCAPE, h: '4'}
   '1':
   - '1'
   - '2'
@@ -180,9 +180,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
-  - {t: BT, h: '2', type: held}
+  - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - {t: BT, h: '4', type: held}
+  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -191,9 +191,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -203,18 +203,18 @@ layers:
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: BT CLR, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BT CLR ALL, type: held}
   '5':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -234,21 +234,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '&mkp MB4'
   - {t: ▽, type: trans}
   - '&mkp MB5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -302,5 +302,5 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [18, 19, 20, 32, 30, 7, 9]
+- p: [18, 20, 32, 30, 7, 9, 31]
   k: {t: ESC, h: '4'}
