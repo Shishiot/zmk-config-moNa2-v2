@@ -31,7 +31,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <12 18 19 20 30 32 13 11>;
         };
     };
 
