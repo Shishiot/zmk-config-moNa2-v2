@@ -96,10 +96,10 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp NUMBER_4  &kp NUMBER_5                                           &kp NUMBER_6           &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9    &kp NUMBER_0
-&kp F1        &kp F2        &kp F3                &kp F4        &kp F5                           &kp LS(INS)           &kp F6                 &kp F7            &kp F8             &kp F9          &kp F10
-&kp MINUS     &kp CARET     &kp NON_US_BACKSLASH  &kp AT_SIGN   &kp SEMICOLON  &kp COLON         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans        &trans        &trans                &trans        &trans         &kp UNDERSCORE    &kp F11               &kp F12                                                                     &kp PIPE
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5                                           &kp NUMBER_6           &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9    &kp NUMBER_0
+&kp F1        &kp F2        &kp F3         &kp F4        &kp F5                           &kp LS(INS)           &kp F6                 &kp F7            &kp F8             &kp F9          &kp F10
+&kp MINUS     &kp CARET     &kp BACKSLASH  &kp AT        &kp SEMICOLON  &kp COLON         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE
+&trans        &trans        &trans         &trans        &trans         &kp UNDERSCORE    &kp F11               &kp F12                                                                     &kp PIPE
             >;
 
             sensor-bindings = <&scroll_right_left>;
