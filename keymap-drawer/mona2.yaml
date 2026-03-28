@@ -10,13 +10,13 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: P, h: '6'}
   - A
   - S
   - D
   - F
   - G
-  - E
+  - Alt+PRINTSCREEN
   - H
   - J
   - K
@@ -27,22 +27,22 @@ layers:
   - C
   - V
   - B
-  - F14
-  - F15
+  - TAB
+  - Sft+Gui+S
   - N
   - M
   - ','
   - .
   - /
+  - LEFT SHIFT
   - LCTRL
   - LEFT WIN
-  - F16
-  - BACKSPACE
-  - {t: ENTER, h: '2'}
-  - {t: '&to_layer_0 LANG2', h: '3'}
-  - {t: '&to_layer_0 LANG1', h: '3'}
-  - {t: SPACE, h: '1'}
   - LEFT ALT
+  - {t: SPACE, h: '1'}
+  - {t: LANG ZENKAKUHANKAKU, h: '2'}
+  - {t: ENTER, h: '3'}
+  - BACKSPACE
+  - {t: ESCAPE, h: '1'}
   '1':
   - '1'
   - '2'
@@ -81,10 +81,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
   - '!'
@@ -124,8 +124,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -168,8 +168,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
@@ -180,9 +180,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
+  - {t: BT, h: '2', type: held}
   - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - {t: BT, h: '4', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -191,9 +191,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -203,16 +203,16 @@ layers:
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: BT CLR, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
@@ -223,9 +223,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - HOME
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - END
   - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB3'
@@ -268,7 +268,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -302,5 +302,5 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [39, 38]
+- p: [18, 19, 20, 32, 30, 7, 9]
   k: {t: ESC, h: '4'}
