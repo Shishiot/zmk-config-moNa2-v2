@@ -86,7 +86,7 @@
         default_layer {
             bindings = <
 &kp Q           &kp W      &kp E         &kp R         &kp T                                                       &kp Y          &kp U  &kp I      &lt 6 O  &kp P
-&kp A           &kp S      &kp D         &kp F         &kp G                                     &zenkaku_hankaku  &kp H          &kp J  &kp K      &lt 6 L  &kp SEMICOLON
+&kp A           &kp S      &kp D         &kp F         &kp G                                     &zenkaku_hankaku  &kp H          &kp J  &kp K      &lt 6 L  &kp COLON
 &kp Z           &kp X      &kp C         &kp V         &kp B        &kp TAB                      &kp PRINTSCREEN   &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 SPACE  &lt 2 LANG_ZENKAKUHANKAKU    &lt 3 ENTER       &kp BACKSPACE                             &lt 4 ESCAPE
             >;
@@ -96,10 +96,10 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5                    &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9  &kp NUMBER_0
-&trans        &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                  &trans  &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &kp BACKSLASH
-&trans        &trans        &trans            &trans             &trans        &trans    &trans  &trans        &trans                &trans                 &trans        &kp PIPE
-&trans        &trans        &trans            &trans             &trans        &trans    &trans  &trans                                                                   &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp NUMBER_4  &kp NUMBER_5                                           &kp NUMBER_6           &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9    &kp NUMBER_0
+&kp F1        &kp F2        &kp F3                &kp F4        &kp F5                           &kp LS(INS)           &kp F6                 &kp F7            &kp F8             &kp F9          &kp F10
+&kp MINUS     &kp CARET     &kp NON_US_BACKSLASH  &kp AT_SIGN   &kp SEMICOLON  &kp COLON         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE
+&trans        &trans        &trans                &trans        &trans         &kp UNDERSCORE    &kp F11               &kp F12                                                                     &kp PIPE
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -118,10 +118,10 @@
 
         layer_3 {
             bindings = <
-&trans  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans
-&trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &trans
-&trans  &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                   &trans
+&trans  &trans              &kp LG(UP_ARROW)        &trans                   &trans                    &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans
+&trans  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)      &kp LG(RIGHT)            &trans            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans              &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans  &trans    &trans  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &trans
+&trans  &trans              &trans                  &trans                   &trans  &trans    &trans  &trans                                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
