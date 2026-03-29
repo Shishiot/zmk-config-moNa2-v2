@@ -82,10 +82,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - _
-  - INT YEN
-  - \
-  - '|'
+  - {t: ▽, type: trans}
+  - '0x89'
+  - Sft+0x87
+  - Sft+0x89
   '2':
   - F10
   - F11
