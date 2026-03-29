@@ -86,9 +86,9 @@
         default_layer {
             bindings = <
 &kp Q           &kp W      &kp E         &kp R         &kp T                                                       &kp Y          &kp U  &kp I      &lt 6 O  &kp P
-&kp A           &kp S      &kp D         &kp F         &kp G                                     &zenkaku_hankaku  &kp H          &kp J  &kp K      &lt 6 L  &kp COLON
+&kp A           &kp S      &kp D         &kp F         &kp G                                     &zenkaku_hankaku  &kp H          &kp J  &kp K      &lt 6 L  &kp SQT
 &kp Z           &kp X      &kp C         &kp V         &kp B        &kp TAB                      &kp PRINTSCREEN   &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 SPACE  &lt 2 LANG_ZENKAKUHANKAKU    &lt 3 ENTER       &kp BACKSPACE                             &lt 4 ESCAPE
+&kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 SPACE  &lt 2 LANG_ZENKAKUHANKAKU    &lt 3 ENTER       &kp BACKSPACE                             &lt 4 MINUS
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -96,10 +96,10 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5                                           &kp NUMBER_6           &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9    &kp NUMBER_0
-&kp F1        &kp F2        &kp F3         &kp F4        &kp F5                           &kp LS(INS)           &kp F6                 &kp F7            &kp F8             &kp F9          &kp F10
-&kp MINUS     &kp CARET     &kp BACKSLASH  &kp AT        &kp SEMICOLON  &kp COLON         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans        &trans        &trans         &trans        &trans         &kp UNDERSCORE    &kp F11               &kp F12                                                                     &kp PIPE
+&kp ASTERISK       &kp LEFT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                                      &kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR            &kp PERCENT
+&kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6                    &kp LS(INS)       &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &trans
+&kp RIGHT_BRACE    &kp PIPE              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0      &kp LEFT_BRACKET  &kp SEMICOLON    &kp SQT        &kp COLON     &kp DOUBLE_QUOTES     &kp RIGHT_BRACE
+&trans             &trans                &trans        &trans        &trans        &kp UNDERSCORE    &kp F11           &kp F12                                                             &kp PIPE
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -107,10 +107,10 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp POUND          &kp DOLLAR  &kp PERCENT                      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp MINUS  &kp UNDERSCORE
-&kp GRAVE        &kp TILDE    &kp DOUBLE_QUOTES  &kp SQT     &trans                  &trans   &mkp MB3   &mkp MB1       &mkp MB2      &kp EQUAL  &kp PLUS
-&kp F1           &kp F2       &kp F3             &kp F4      &kp F5       &kp F11    &kp F12  &kp F6     &kp F7         &kp F8        &kp F9     &kp F10
-&trans           &trans       &trans             &trans      &trans       &trans     &trans   &trans                                             &trans
+&kp F10    &kp F11    &kp F7  &kp F8  &kp F9                      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp MINUS  &kp UNDERSCORE
+&kp GRAVE  &kp TILDE  &kp F4  &kp F5  &kp F6             &trans   &mkp MB3   &mkp MB1       &mkp MB2      &kp EQUAL  &kp PLUS
+&kp F1     &kp F2     &kp F1  &kp F2  &kp F3  &kp F12    &kp F12  &kp F6     &kp F7         &kp F8        &kp F9     &kp F10
+&trans     &trans     &trans  &trans  &trans  &trans     &trans   &trans                                             &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
