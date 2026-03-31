@@ -145,7 +145,7 @@ layers:
   - Gui+DOWN ARROW
   - Gui+RIGHT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+PRINTSCREEN
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
